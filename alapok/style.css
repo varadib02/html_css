@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: 	#f3e0d3;
+}
+
+#container{
+    margin: auto;
+    width: 80%;
+}
+
+#header{
+    background-color: 	#f0cede;
+    margin: auto;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+.headTitle{
+    color: rgb(16, 16, 16);
+    font-family: cursive;
+    font-size: 45px;
+    margin-right: 5%;
+}
+
+#nav{
+    background-color: #d5d1f1;
+    width: 20%;
+    height: 600px;
+    float: left;
+}
+#navBar{
+    list-style: none;
+    margin-left: -40px;
+}
+
+#navBar .list{
+    margin-bottom: 10px;
+}
+.btn{
+    border-bottom-right-radius: 10px;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 20px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    color: #d5d1f1;
+}
+.btn:hover{
+    color: aqua;
+    cursor: pointer;
+    background-color: blue;
+}
+#main{
+    background-color: #cff1e7;
+    color: rgb(41, 68, 75);
+    width: 80%;
+    height: 600px;
+    float: right;
+    font-size: 30px;
+}
+
+
+footer{
+    clear: both;
+    background-color: #ebf3d1;
+    height: 30px;
+    
+}
+.footerContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.name{
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.num{
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+#tableCaption{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.table{
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+.table, td, th{
+    border: solid black 1px;
+}
+
+.firstRow{
+    height: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    border: solid black 2px;
+    background-color: red;
+}
+
+.monday{
+    background-color: green;
+}
+
+.thursday{
+    background-color:green;
+}
+
+
+.tableBody{
+    font-size: 15px;
+}
+
+.day{
+    border: solid black 2px;
+    font-size: 23px;
+    font-weight: bold;
+    height: 70px;
+    width: 10%;
+}
+
+.weekdayRow{
+    background-color: greenyellow;
+}
+
+.tableFooter{
+    font-size: 15px;
+    background-color: gray;
+}
