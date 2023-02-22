@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+.headTitle{
+    font-family: 'Courier New', Courier;
+    font-size: 50px;
+    text-decoration-line: underline;
+    
+}
+
+.headTitle:hover{
+    color: yellow;
+}
+body{
+    margin: 0;
+    background-color: #1a1b1ae8;
+}
+
+#container{
+    margin: auto;
+    width: 80%;
+    
+}
+
+#header{
+    background-color: #111111e8;
+    margin: auto;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.img{
+    height: 100px;
+}
+
+#main{
+    background-color: #cff1e7;
+    color: rgb(41, 68, 75);
+    width: 80%;
+    height: 600px;
+    float: right;
+    font-size: 30px;
+}
+
+#tableCaption{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+#tableCaption:hover{
+    color: yellow;
+}
+
+.table{
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.table, td, th{
+    border: solid black 1px;
+    color: #111111e8;
+}
+
+.firstRow{
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid black 2px;
+    background-color: rgb(255, 255, 255);
+}
+.row{
+    background-color: rgb(212, 212, 212);
+}
+.cella{
+    border: solid black 2.5px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    width: 15%;
+}
+
+footer{
+    background-color: #111111e8;
+    height: 100px;
+    padding: 5px;
+    
+}
+.footerContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tableFooter{
+    font-size: 15px;
+    background-color: gray;
+}
+.name{
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.number{
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.email{
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
